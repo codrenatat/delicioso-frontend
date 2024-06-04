@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicioso - Register</title>
+    <link rel="icon" type="image/png" href="../assets/logos/ramen.png">
+    <link rel="stylesheet" href="../css/register.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+    </style>
+</head>
+<body>
+
+    <header id="home">
+        <div class="logo">
+            <a href="../views/home.html">
+                <img src="../assets/logos/logo.png" alt="Delicioso Logo" id="logo" width="146" height="67.6">
+            </a>
+        </div>
+        <nav id="navbar-container">
+            <ul class="nav navbar">
+                <li class="nav-item"><a href="./home.html">Home</a></li>
+                <li class="nav-item"><a href="./orders.html">My orders</a></li>
+                <li class="nav-item"><a href="#">Favorites</a></li>
+                <li class="nav-item"><a href="#">Need help</a></li>
+                <li class="nav-item"><a href="#">Add a restaurant</a></li>
+                <li class="nav-item"><a href="#">Contact us</a></li>
+                <li class="nav-item"><a href="#">GTC</a></li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <a href="./logIn.html" class="button2">LogIn</a>
+        </div>
+    </header>
+
+    <div class="register-container">
+        <h2>Register</h2>
+        <form action="#" method="post" class="register-form">
+            <div class="form-group">
+                <input type="text" name="firstname" placeholder="First Name">
+                <input type="text" name="lastname" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="username" placeholder="Username">
+                <input type="date" name="dob" placeholder="Date of Birth">
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input type="text" name="address" placeholder="Address">
+                <input type="text" name="postalcode" placeholder="Postal Code">
+            </div>
+
+            <p>
+                <input type="checkbox" id="isAdmin" name="isAdmin">
+                <label for="isAdmin">I'm an admin</label>
+            </p>
+
+            <p>
+                <input type="checkbox" id="isAdmin" name="isAdmin">
+                <label for="isAdmin">I'm an delivery man</label>
+            </p>
+
+            <button type="submit">Register</button>
+            <p>If you already have an account <a href="./logIn.html">log in now</a></p>
+            
+        </form>
+
+    </div>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="./home.html">
+                    <img src="../assets/logos/logo.png" alt="Delicioso Logo">
+                </a>
+            </div>
+            <div class="footer-column redirects">
+                <h3>Redirects</h3><br>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column members">
+                <h3>Members</h3><br>
+                <ul>
+                    <li><a href="#">Giulietta Pancari-Fauret</a></li>
+                    <li><a href="#">Renata Tejeda Mercado</a></li>
+                    <li><a href="#">Charles Radolanirina</a></li>
+                </ul>
+            </div>
+            <div class="footer-column contact-us">
+                <h3>Contact Us</h3><br>
+                <p>10 rue de vanves, Issy-les-Moulineaux - 92310</p>
+                <p>07 12 30 45 62</p>
+                <p><a href="mailto:contact@delicioso.fr">contact@delicioso.fr</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Copyright &copy; Delicioso | 2024
+        </div>
+    </footer>
+</body>
+</html>

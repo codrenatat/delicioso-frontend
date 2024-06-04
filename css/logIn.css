@@ -247,3 +247,8 @@ body {
 .login-container button:hover {
   background-color: #28274F;
 }
+
+a {
+  color: red;
+  text-decoration: none;
+}
